@@ -1,0 +1,26 @@
+<h1>Ritvik Menon's First Blog using Ruby</h1>
+
+<br>
+<br>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @posts.each do |post| %>
+  <h2><%= link_to post.title, post%></h2>
+  <p>
+   <%= time_ago_in_words post.created_at %> ago
+  </p> 
+  <p>
+  <%= truncate post.text %>
+  </p>
+ <% end %>
+
+<br />
+
+<%= link_to 'New Post', new_post_path %>
