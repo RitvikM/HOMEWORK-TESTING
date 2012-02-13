@@ -1,0 +1,54 @@
+body
+{
+background-color:#d0e4fe;
+}
+h1,h2
+{
+font-family:"Trajan Pro";
+color:white;
+text-align:center;
+}
+p
+{
+font-family:"Trajan Pro";
+font-size:30px;
+color:white;
+}
+
+a:link {font-size:15 px;color:#FFFFFF;font-family:"Trajan Pro";}      /* unvisited link */
+a:visited {font-size:15 px;color:#FFFFFF;font-family:"Trajan Pro";}  /* visited link */
+a:hover {font-size:15 px;color:#FF00FF;font-family:"Trajan Pro";}  /* mouse over link */
+a:active {font-size:15 px;color:#0000FF;font-family:"Trajan Pro";}  /* selected link */
+
+
+
+form, label{  
+
+	font-family:"Trajan Pro";
+	color:#FFFFFF;
+    }  
+
+	
+	input
+{
+color: #781351;
+background: #fee3ad;
+border: 1px solid #781351
+
+}
+
+TEXTAREA {
+background-color: #fee3ad;
+border: black 2px solid;
+color: black;
+font-family: verdana;
+font-size: 10pt;
+font-weight: normal
+}
+
+.submit input
+{
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9
+} 

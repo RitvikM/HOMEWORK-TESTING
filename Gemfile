@@ -16,6 +16,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+
+
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -34,3 +37,12 @@ group :test do
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
 end
+
+   group :development, :test do
+      gem 'sqlite3'
+    end
+
+    group :production do
+      gem 'pg'
+    end
+	
