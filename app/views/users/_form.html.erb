@@ -18,16 +18,34 @@
   <div class="field">
     <%= f.label :age %><br />
     <%= f.number_field :age %>
-  </div>
+    </div>
+	
+  <div class="field">
+	<%= f.radio_button :sex, 'Male', :checked => true %> 
+  <%= label :sex, 'Male' %>
+  	<%= f.radio_button :sex, 'Female', :checked => true %> 
+  <%= label :sex, 'Female' %>
+   </div>
+
   <div class="field">
     <%= f.label :password %><br />
     <%= f.text_field :password %>
-  </div>
-  <div class="field">
+</div>
+<div class="field">
     <%= f.label :biography %><br />
     <%= f.text_area :biography %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+</div>
+
+<div class="field">
+<%= f.check_box :recieveemails, :checked => true %> 
+<%= label :recieveemails, 'I want to recieve emails' %>
+<br>
+</div>
+
+<div class="actions">
+   <%= f.submit %>
+</div>
+</div>
+  
+  
+  <% end %>

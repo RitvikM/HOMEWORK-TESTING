@@ -1,3 +1,62 @@
-// Place all the styles related to the posts controller here.
+// Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+body
+{
+color:white;
+background: url(background.jpg);
+background-color:#d0e4fe;
+}
+h1,h2
+{
+font-family:"Trajan Pro";
+color:white;
+text-align:left;
+}
+p
+{
+font-family:"Verdana";
+font-size:12px;
+color:white;
+}
+
+a:link {font-size:15 px;color:#FFFFFF;font-family:"Verdana";}      /* unvisited link */
+a:visited {font-size:15 px;color:#FFFFFF;font-family:"Verdana";}  /* visited link */
+a:hover {font-size:15 px;color:#FF00FF;font-family:"Verdana";}  /* mouse over link */
+a:active {font-size:15 px;color:#0000FF;font-family:"Verdana";}  /* selected link */
+
+
+
+form, label{  
+
+	font-family:"Trajan Pro";
+	color:#FFFFFF;
+    }  
+
+	
+	input
+{
+color: #781351;
+background: #FFFFE8;
+border: 1px solid #781351
+
+}
+
+TEXTAREA {
+background-color: #FFFFE8;
+border: black 2px solid;
+color: black;
+font-family: verdana;
+font-size: 10pt;
+font-weight: normal
+}
+
+.submit input
+{
+color: #000;
+background: #ffa20f;
+border: 2px outset #d7b9c9
+} 

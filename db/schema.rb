@@ -32,8 +32,10 @@ ActiveRecord::Schema.define(:version => 20120213083509) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.integer  "age"
+    t.string   "sex"
     t.string   "password"
     t.text     "biography"
+    t.string   "recieveemails"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

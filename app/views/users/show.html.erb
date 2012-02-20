@@ -7,7 +7,12 @@
 
 <p>
   <b>Age:</b>
-  <%= @user.age %>
+  <%= @user.age %>	
+</p>
+
+<p>
+  <b>Sex:</b>
+  <%= @user.sex %>
 </p>
 
 <p>
@@ -19,6 +24,13 @@
   <b>Biography:</b>
   <%= @user.biography %>
 </p>
+
+<p>
+  <b>Wants to recieve emails?:</b>
+  <%= @user.recieveemails %>
+</p>
+
+
 
 
 <%= link_to 'Edit', edit_user_path(@user) %> |

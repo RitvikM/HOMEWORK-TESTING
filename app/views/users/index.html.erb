@@ -4,8 +4,10 @@
   <tr>
     <th>|Name|</th>
     <th>|Age|</th>
+	<th>|Sex|</th>
     <th>|Password|</th>
     <th>|Biography|</th>
+	 <th>|Wants to Recieve Emails?|</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,8 +17,10 @@
   <tr>
     <td><%= user.name %></td>
     <td><%= user.age %></td>
+	 <td><%= user.sex %></td>
     <td><%= user.password %></td>
     <td><%= user.biography %></td>
+	<td><%= user.recieveemails %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>
@@ -27,3 +31,10 @@
 <br />
 
 <%= link_to 'New User', new_user_path %>
+
+
+<p>
+
+<br>
+
+<%= link_to("Click to View Blog Entry page in development.", posts_path) %>

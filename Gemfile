@@ -38,11 +38,11 @@ group :test do
   gem 'turn', '0.8.2', :require => false
 end
 
-   group :development, :test do
+  group :development, :test do
       gem 'sqlite3'
     end
 
-    group :production do
+  group :production do
       gem 'pg'
     end
 	
